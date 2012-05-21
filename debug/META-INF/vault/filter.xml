@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Defines which repository items are generally included
+-->
+<workspaceFilter vesion="1.0">
+    <!--
+    <filter root="/apps/geometrixx">
+        <exclude pattern="^.*/form.*$" />
+    </filter>
+    <filter root="/content/geometrixx" />
+    -->
+    <filter root="/">
+        <exclude pattern="/jcr:system" />
+        <exclude pattern="/var/classes" />
+        <exclude pattern="^.*/rep:accessControl" />
+    </filter>
+</workspaceFilter>
